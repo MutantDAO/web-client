@@ -8,14 +8,14 @@ const MutantNav = () => {
 		<Navbar className={`${styles.navBar} accent-border-bottom`} variant="dark">
 			<Container>
 				<Navbar.Brand href="#home" className={styles.brandContainer}>
-					<Image
-						alt=""
+					<img
+						alt="Mutant Cats Logo"
 						src="/Logo_2A_1024x1024.png"
 						width="30"
 						height="30"
 						className={`${styles.brandIcon} d-inline-block align-top`}
 					/>
-					<span style={{marginLeft: "12px"}}>Mutant Devs</span>
+					<span style={{marginLeft: "0px"}}>Mutant Devs</span>
 				</Navbar.Brand>
 				<Row>
 					<Col>

@@ -7,11 +7,11 @@ const SplashContent = () => {
 		<div className={`${styles.splash} accent-border-bottom`}>
 			<div className={`${styles.splashSection} ${styles.splashGraphic}`}>
 				<div className={styles.graphicWrapper}>
-					<Image
+					<img
 						src={"/favicon.png"}
 						alt={"Mutant Cats Logo"}
-						height={380}
-						width={380}
+						height={310}
+						width={310}
 					/>
 				</div>
 				<div style={{flexShrink: 4}}>
