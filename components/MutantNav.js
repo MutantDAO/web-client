@@ -1,7 +1,7 @@
 import {Navbar, Container, Col, Row} from "react-bootstrap";
 import Link from "next/link";
 
-const Nav = () => {
+const MutantNav = () => {
 	return (
 		<Navbar bg="dark" variant="dark">
 			<Container>
@@ -27,4 +27,4 @@ const Nav = () => {
 	)
 }
 
-export default Nav;
+export default MutantNav;

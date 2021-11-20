@@ -1,6 +1,6 @@
-import styles from "./ContentSection.module.css";
+import styles from "./ContentBody.module.css";
 
-const ContentSection = (props) => {
+const ContentBody = (props) => {
 	return (
 		<div className={styles.section}>
 			{props.children}
@@ -8,4 +8,4 @@ const ContentSection = (props) => {
 	)
 }
 
-export default ContentSection;
+export default ContentBody;
