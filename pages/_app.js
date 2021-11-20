@@ -6,7 +6,8 @@ export default function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>Fishathon</title>
+				<title>Mutant Cats: Fish-a-thon</title>
+				<link rel="icon" href="/logo.png"/>
 				<link rel="preconnect" href="https://fonts.googleapis.com"/>
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
 				<link

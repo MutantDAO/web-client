@@ -7,6 +7,9 @@ body{
 .accent-text{
     color: #85e309;
 }
+.accent-border-bottom{
+    border-bottom: 1px solid rgba(132, 227, 4, 0.75);
+}
 .appContainer {
     background-color: #0b0316;
     color: #FFFFFF;
