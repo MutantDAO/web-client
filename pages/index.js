@@ -13,7 +13,7 @@ export default function Home() {
       <Container style={{ paddingTop: "50px" }}>
         <SplashContent />
         <ContentSection>
-          <ContentTitle>About i Us</ContentTitle>
+          <ContentTitle>About Us</ContentTitle>
           <ContentBody>
             <p>
               Mutant Cats released in early October 2021 was the first DAO to
