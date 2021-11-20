@@ -1,5 +1,4 @@
 import styles from "./SplashContent.module.css";
-import Image from "next/image";
 import RegisterBtn from "./RegisterBtn";
 
 const SplashContent = () => {

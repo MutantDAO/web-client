@@ -1,5 +1,4 @@
 import {Navbar, Container, Col, Row} from "react-bootstrap";
-import Image from "next/image";
 import RegisterBtn from "./RegisterBtn";
 import styles from "./MutantNav.module.css";
 
