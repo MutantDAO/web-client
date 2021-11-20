@@ -1,5 +1,6 @@
 import {Navbar, Container, Col, Row} from "react-bootstrap";
 import Link from "next/link";
+import RegisterBtn from "./RegisterBtn";
 
 const MutantNav = () => {
 	return (
@@ -17,9 +18,7 @@ const MutantNav = () => {
 				</Navbar.Brand>
 				<Row>
 					<Col>
-						<Link href="/about" as={process.env.BACKEND_URL + '/about'}>
-							<a>About</a>
-						</Link>
+						<RegisterBtn/>
 					</Col>
 				</Row>
 			</Container>

@@ -1,5 +1,6 @@
 import styles from "./SplashContent.module.css";
 import {Button} from "react-bootstrap";
+import RegisterBtn from "./RegisterBtn";
 
 const SplashContent = () => {
 	return (
@@ -14,7 +15,7 @@ const SplashContent = () => {
 			</div>
 			<div className={styles.splashSection}>
 				<div className={styles.splashActions}>
-					<Button className={styles.splashActionBtn}>Register Here</Button>
+					<RegisterBtn/>
 				</div>
 			</div>
 		</div>
