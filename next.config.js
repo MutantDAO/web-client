@@ -5,5 +5,5 @@
 const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
-  basePath: !debug ? "/web-client/" : "",
+  basePath: !debug ? "/web-client" : "",
 };
