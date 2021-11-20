@@ -7,6 +7,13 @@ export default function MyApp({ Component, pageProps }) {
 		<>
 			<Head>
 				<title>Fishathon</title>
+				<link rel="preconnect" href="https://fonts.googleapis.com"/>
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
+					rel="stylesheet"
+					type={"text/css"}
+				/>
 			</Head>
 			<Component {...pageProps} />
 		</>
